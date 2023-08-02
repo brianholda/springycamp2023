@@ -1,0 +1,50 @@
+<h2 class="s-lib-box-title">Support</h2>
+
+<section class="hekman-support">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Ask</h3>
+<ul class="list-group">
+            <li class="list-group-item"><a
+                            href="https://libanswers.calvin.edu/chat/widget/51b0b3781b09e1ba1ddd6b9921472e75" style="background-color: #CB6010;
+    color: #FFFFFF;
+    padding: 1rem;
+    text-decoration: none;"><i class="fa fa-comment" aria-hidden="true"></i> 24/7 Live Chat</a></li>
+            <li class="list-group-item"><img src="https://libapps.s3.amazonaws.com/customers/726/images/hekman_logo_2019_smaller_50x50.png"
+                    alt="Hekman Library Logo" height="18"> <a
+                    href="/c.php?g=1285690&amp;p=9440554#s-lg-box-wrapper-35837920">Contact Us</a></li>
+            <li class="list-group-item"><i class="fa fa-search" aria-hidden="true"></i> <a href="/research/help?fromhomeTop">Research Help</a></li>
+            <li class="list-group-item"><i class="fa fa-users" aria-hidden="true"></i> <a href="/staff?fromhomeTop">Staff Profiles</a></li>
+</ul>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Helps</h3>
+<ul class="list-group">
+            <li class="list-group-item"><i class="fa fa-question-circle" aria-hidden="true"></i> <a href="https://calvin.libanswers.com?fromhomeTop">FAQ</a>
+            </li>
+           <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i> <a href="/citing?fromhomeTop" class="link-heading">Citation Help</a>
+            </li>
+            <li class="list-group-item"><i class="fa fa-pencil-square" aria-hidden="true"></i> <a
+                    href="https://youtube.com/playlist?list=PLxaSjxo3tYmjUi5nHXJpSczAb5vwgJ-a9"
+                    class="link-heading">Hekman Research 101 (videos)</a></li>
+  <li class="list-group-item"><i class="fa fa-check" aria-hidden="true"></i> <a href="https://ukeke.calvin.edu/reserves/browse?fromhomeTop"
+                    class="link-heading">Course Reserves</a></li>
+<li class="list-group-item"><span class="badge guide-count">90+</span><i class="fa fa-map-signs" aria-hidden="true"></i> <a href="/research-guides?fromhomeSupport" class="link-heading">Research Guides</a></li>
+</ul>
+        </div>
+
+</div>
+<div class="row">
+
+        <div class="col-md-6">
+            <h3>Users</h3>
+<ul class="list-group">
+            <li class="list-group-item"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <a href="/faculty?fromhomeTop" class="link-heading">For
+                    Faculty</a></li>
+           <li class="list-group-item"><i class="fa fa-users" aria-hidden="true"></i> <a href="/users?fromhomeTop" class="link-heading">All Users</a></li>
+</ul>
+        </div>
+
+    </div>
+</section>
