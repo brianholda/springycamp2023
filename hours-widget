@@ -1,0 +1,63 @@
+<div class="hours">
+
+<!--insert your unique hours widget here (use the JavaScript version of LibCal)-->
+    <div id="api_hours_today_iid5960_lid0"></div>
+    <script src="https://libcalendar.calvin.edu/api_hours_today.php?iid=5960&lid=0&format=js&systemTime=0&context=object"></script>
+    
+<p class="text-center" style="font-size:smaller; margin:0;">
+        <a href="https://libcalendar.calvin.edu/hours?fromhome" style="font-size:initial;"><i
+                class="fa fa-clock-o" aria-hidden="true"></i>
+            More Library Hours</a>
+    </p>
+    <script>
+        (function () {
+
+            //remove links
+            $('.hours-today a').contents().unwrap();
+
+            //insert day of week
+            const today = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][(new Date()).getDay()];
+            $(`tr.loc19460 th.hours-col-loc`).text(today);
+
+            //hide when multiple times in a single day
+            $("tr.hours-today-row").has("span.s-lc-time > br").addClass("hide");
+
+        })();
+    </script>
+    <style>
+        /*Hours table*/
+        .hours {
+            background-color: #eee;
+            padding: 1rem;
+            font-size: smaller;
+            color: #8c2131;
+            border: 1px solid;
+            opacity: 0.9;
+        }
+
+        .hours-today {
+            margin: auto;
+        }
+
+        .hours-today tr.loc19460,
+        .loc19460 th {
+            font-weight: bold;
+        }
+
+        .hours-today tr.dep19470 {
+            display: none;
+        }
+
+        th {
+            font-weight: normal;
+        }
+
+        th.hours-col-loc {
+            text-align: right;
+        }
+
+        td.hours-col-time {
+            padding: 0 1rem;
+        }
+    </style>
+</div>
