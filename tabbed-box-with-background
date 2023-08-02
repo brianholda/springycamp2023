@@ -1,0 +1,41 @@
+<h3 style="margin-left: 1rem; margin-right: 1rem;">Heritage Hall Archives</h3>
+
+<p class="alert alert-danger">Generally open 9:00am to 4:30pm, but hours can fluctuate.</p>
+
+<p>Heritage Hall is the official archive of the Calvin University, Calvin Theological Seminary, and the Christian Reformed Church.</p>
+
+<p>It also has some 600 collections of personal papers and records of other organizations.</p>
+
+<p>It specializes in Dutch North American history and Reformed Christianity and offers rich material for genealogical research and topics in social, cultural, and political history.</p>
+
+<hr>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-laptop" aria-hidden="true"></i>See more at <a href="https://library.calvin.edu/hh?fromlibraryhome">Heritage Hall</a></li>
+<li><i class="fa-li fa fa-clock-o" aria-hidden="true"></i>Find Hours at <a href="https://libcalendar.calvin.edu/hours?fromlibraryhome">More Library Hours</a></li>
+<li><i class="fa-li fa fa-envelope" aria-hidden="true"></i>E-mail <a href="mailto:crcarchives@calvin.edu">crcarchives@calvin.edu</a></li>
+</ul>
+
+<style>
+
+<!--you need to find the ID for the specific tab you are wanting to style, then insert that where it says `div#s-lib-ctab-29924304-0`-->
+div#s-lib-ctab-29924304-0 {
+position: relative;
+}
+div#s-lib-ctab-29924304-0:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url('https://libapps.s3.amazonaws.com/customers/726/images/heritage-hall_800x500.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+div#s-lib-ctab-29924304-0>* {
+    position: relative;
+}
+</style>
