@@ -1,6 +1,6 @@
 <div class="hours">
 
-<!--insert your unique hours widget here (use the JavaScript version of LibCal)-->
+<!--Insert your unique hours widget below. To get this widget: In LibCal, go to "Admin", "Hours", "Widgets", then use the "Javascript" widget found in "Today's Hours" tab-->
     <div id="api_hours_today_iid5960_lid0"></div>
     <script src="https://libcalendar.calvin.edu/api_hours_today.php?iid=5960&lid=0&format=js&systemTime=0&context=object"></script>
     
