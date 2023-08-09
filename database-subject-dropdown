@@ -6,13 +6,13 @@
 <!--style that affects the look and feel of the new widget you'll create-->
 <style>
 
-<!--hide the initial subject and database inidividual widgets that Springshare makes-->
+/* hide the initial subject and database inidividual widgets that Springshare makes */
     #s-lg-widget-1682087679490,
     #s-lg-widget-1682087842983 {
         display: none;
     }
 
-<!--these styles apply to the newly created list of subjects and databases-->
+/* these styles apply to the newly created list of subjects and databases */
     #subject-database-combined-form .form-control {
         font-size: 2rem;
     }
@@ -50,7 +50,7 @@
 <form id="subject-database-combined-form" style="margin-bottom:3rem;">
     <label for="subject-database-combined" style="display:block;" class="sr-only">Enter Subject or Database Name</label>
     <select id="subject-database-combined" class="form-control" title="Enter Subject or Database Name"
-        data-live-search="true" data-dropup-auto="false">
+        data-live-search="true" data-dropup-auto="true">
         <option class="placeholder-option" value="">Enter Subject or Database Name</option>
         <optgroup label="Subjects">
             <option class="placeholder-option" value="/sb.php">Search All Subjects</option>
