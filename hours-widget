@@ -17,6 +17,8 @@
 
             //insert day of week
             const today = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][(new Date()).getDay()];
+
+//replace your location name with day of the week (look for the class name of the <tr> element and change loc19460 with your own class name in the code
             $(`tr.loc19460 th.hours-col-loc`).text(today);
 
             //hide when multiple times in a single day
